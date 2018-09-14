@@ -1,0 +1,164 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #fffbf5;
+	position: relative;
+	z-index: -2;
+}
+
+.camera {
+	width: 100px;
+	height: 70px;
+	margin-top: 20px;
+	background: black;
+	border-radius: .125em;
+	position: relative;
+	left: 100px;
+	top: 300px;
+}
+
+.camera:after {
+	width: 1.438em;
+	height:1.438em;
+	margin: 1.3em 0 0 2em;
+	border: .25em solid white;
+	border-radius: 1.438em;
+	position: absolute;
+	content: "";
+}
+.camera2 {
+	width: 100px;
+	height: 7px;
+	margin-top: 20px;
+	background: grey;
+	border-radius: .125em;
+	position: relative;
+	left: 100px;
+	top: 210px;
+
+}
+
+#Teapot {
+	width: 60px;
+	height: 107px;
+	background: white;
+	border: 0.1em solid silver;
+	top: 200px;
+	left: 270px;
+	position: absolute;
+
+#Teapot:after {
+
+}
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: absolute;
+}
+
+#clip {
+	width: 100%;
+	height: 35px;
+	background: #f2b438;
+	top: 370px;
+
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+.capdot{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: grey;
+	position: relative;
+
+	left: 50px;
+}
+
+.cap{
+	border-bottom: 19px solid grey;
+	border-left: 34px solid transparent;
+	border-right: 34px solid transparent;
+	height: 0px;
+	    width: 40px;
+    left: 6px;
+    position: relative;
+}
+
+.glass{
+	 width: 107px;
+	 height: 150px;
+    left: 6px;
+    position: relative;
+    background: rgba(226,226,226,1);
+background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+
+}
+
+.holder{
+	width: 50px;
+	height: 90px;
+	position: relative;
+	background-color: transparent;
+	border: 10px solid silver;
+	border-radius: 100%;
+	content: "";
+	left: -32px;
+	bottom: 130px;
+	z-index: -1;
+
+}
+
+
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
