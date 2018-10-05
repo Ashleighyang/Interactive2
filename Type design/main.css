@@ -1,0 +1,19 @@
+.half {
+	width: 100px;
+	height:100px;
+	radius: 50%;
+	background:blue;
+}
+
+.half:after {
+	content: ""
+	width:50px;
+	height: 100px;
+	background:white;
+}
+
+.left {
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 100px;
+	background: red;
+}

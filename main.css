@@ -1,0 +1,188 @@
+body {
+	background-color: #e2ded9;
+}
+
+.letter {
+	height:100px;
+	float:left;
+	position: relative;
+	margin: 30px;
+	top: 200px;
+	width:150px;
+}
+
+.half {
+	width: 50px;
+	height:100px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	background:#b45931;
+	border-left: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.halfright{
+	width: 50px;
+	height:100px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	background:#b45931;
+	border-left: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+
+.circle2{
+	width: 62px;
+	height:62px;
+	border: 5px solid #2c474e;
+	background: transparent;
+	border-radius: 50%;
+	position: absolute;
+	clip-path: inset(0 0 36px 0);
+	top: -5px;
+	left: -36px;
+}
+
+.circle3{
+	width: 62px;
+	height:62px;
+	border: 5px solid #2c474e;
+	background: transparent;
+	border-radius: 50%;
+	position: absolute;
+	clip-path: inset(0 0 0 15px);
+
+}
+
+.circle8 {
+	width: 62px;
+	height:62px;
+	border: 5px solid #2c474e;
+	background: transparent;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.circle9 {
+	width: 62px;
+	height:62px;
+	border: 5px solid #2c474e;
+	background: transparent;
+	border-radius: 50%;
+	position: absolute;
+	clip-path: inset(0 15px 0 0);
+}
+
+.smallcircle{
+	width: 62px;
+	height: 62px;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.smallhalf{
+	width: 44px;
+	height:90px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	background-color: #e2ded9;
+	border-left: 0;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+
+.curve2{
+	position: absolute;
+	height: 72px;
+	width: 72px;
+    clip-path: inset(0 0 36px 0);
+}
+
+
+
+.letter.e .halftop {
+	transform: rotate(90deg);
+	position: absolute;
+
+	left:130px;
+}
+
+.letter.e .halfbottom {
+	top: -67px;
+ left: 30px;
+	position: absolute;
+}
+
+.positiong{
+	transform: rotate(-10deg);
+	left: -53.4px;
+    top: 18px;
+    position: absolute;
+}
+
+.stem {
+	height: 100px;
+	width: 5px;
+	position: absolute;
+	background: #2c474e;
+}
+
+.letter.e .halfbottom {
+	top: -67px;
+ left: 30px;
+	position: absolute;
+}
+
+.smallhalf{
+	width: 44px;
+	height:90px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	background-color: #e2ded9;
+	border-left: 0;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+
+.hello{
+	    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 80vh;
+    float: left;
+    margin-left: calc(50% - 278px);
+
+}
+
+.lalalal{
+	margin: 0;
+	width: 60px;
+}
+
+.lalalah{
+  top:185px;
+  margin: 0;
+  left: 75px;
+}
+
+.lalalao{
+  top:185px;
+  margin: 0;
+}
+
+.lalalah{
+  top:185px;
+  margin: 0;
+}
+
+.lalalae{
+  top:225px;
+  margin: 0;
+}
