@@ -1,11 +1,49 @@
  
     html, body, div, p {margin:0; padding:0;}
     .box {width: 100px; height: 100px; padding: 1em; position:absolute; background-color:white; border:solid 1px;}
+
     .box1:hover {
-    	top:30%; left:5%; background:black; z-index:10;
+    	background:black;
+    }
+
+
+
+    .box1{
+    	transition: 0.3s;
     }
     
-    .box2 {top:30%; left:25%; z-index:20;}
-    .box3 {top:30%; left:45%; z-index:30;}
-    .box4 {top:30%; left:65%; z-index:40;}
-    .box5 {top:30%; left:85%; z-index:50;}
+    .box2 {top:30%; left:25%; z-index:20;transition: 0.3s;}
+    .box3 {top:30%; left:45%; z-index:30;transition: 0.3s;}
+    
+
+
+    .fullscreen{
+    	width: 100vw;
+    	height: 100vh;
+    	background-color: black;
+    	border:none;
+    }
+
+    .screen2{
+    	width: 70vw;
+    	height: 70vh;
+    	top: 15vh;
+    	left: 15vw;
+    	position: absolute;
+    }
+
+     .screen3{
+    	width: 40vw;
+    	height: 40vh;
+    	top: 30vh;
+    	left: 30vw;
+    	position: absolute;
+    }   
+
+    .black{
+    	background-color: black;
+    }
+
+    .white{
+    	background-color: white;
+    }
