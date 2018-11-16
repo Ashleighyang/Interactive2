@@ -8,13 +8,14 @@
 
 
 
-    .box1{
+    .box1 {
+    	 left:0;
     	transition: 0.3s;
     }
     
     .box2 {top:30%; left:25%; z-index:20;transition: 0.3s;}
     .box3 {top:30%; left:45%; z-index:30;transition: 0.3s;}
-    
+
 
 
     .fullscreen{
@@ -30,6 +31,7 @@
     	top: 15vh;
     	left: 15vw;
     	position: absolute;
+    	border:none;
     }
 
      .screen3{
