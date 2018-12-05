@@ -1,10 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
 
 body{
 	background-color:#e8e8e8;
+	height: 3000px;
+	width: 2000px;
 
 
+}
+
+.noscroll {
+	overflow: hidden;
+}
+
+.title{
+	font-size: 57px;
+	top: 500px;
+	left: 300px;
+	position: absolute;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .back {
@@ -18,19 +34,47 @@ body{
 
 .art {
 	position: absolute;
-	width:20%;
+	width:25%;
 	height:auto;
-	top:100px;
+	top:30px;
 	left: 300px;
-
 }
+
+.art2 {
+	position: absolute;
+	width:30%;
+	height:auto;
+	top:200px;
+	left: 300px;
+}
+
+
 
 .note {
 	position:relative;
 	top:300px;
-	left:700px;
+	left:800px;
 	font-size: 18px;
-	font-family: 'Libre Baskerville', serif;
+	font-family:'PT Serif', serif;
+}
+
+.note2 {
+	position:relative;
+	top:300px;
+	left:800px;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+	font-family: 'Playfair Display', serif;
+}
+
+.button {
+	font-size: 14px;
+	font-family: sans-serif;
+	top: 580px;
+	left: 810px;
+	position: absolute;
+	display: inline;
 }
 
 #box1 {
@@ -57,6 +101,126 @@ body{
 	height: 20px;
 	width:500px;
 }
+
+#bar1 {
+    width: 10px;
+    height: 200px;
+    transform: rotate(120deg);
+    top:100px;
+    background: black;
+    left: 78px;
+    position: absolute;
+}
+
+#bar2 {
+    width: 10px;
+    height: 1500px;
+    background: black;
+    left: 162px;
+    top: 246px;
+    position: absolute;
+}
+
+#bar3 {
+	width: 10px;
+    height: 800px;
+    background: black;
+    left: 552px;
+    top: 1410px;
+    transform: rotate(-80deg);
+    position: absolute;
+}
+
+#bar4 {
+	width: 10px;
+    height: 800px;
+    background: black;
+    left: 552px;
+    top: 1410px;
+    transform: rotate(-80deg);
+    position: absolute;
+}
+
+#bar5 {
+	width: 10px;
+    height: 600px;
+    background: black;
+    left: 552px;
+    top: 1410px;
+    transform: rotate(-80deg);
+    position: absolute;
+}
+
+
+#cover1 {
+   width: 100vw;
+    height: 25vh;
+    background: #e8e8e8;
+    position: fixed;
+    bottom: 0;
+}
+
+#cover2 {
+   width: 30vw;
+    height: 40vh;
+    background: #e8e8e8;
+    position: fixed;
+    right:0;
+    bottom: 0;
+}
+
+#show1 {
+	width: 20%;
+	height: auto;
+	position: absolute;
+	top:78vw;
+	left: 20%;
+	z-index: 1000;
+	transition: 0.2s;
+}
+
+#show1:hover {
+	width: 22%;
+	top: calc(78vw - 1%);
+	left: calc(19%);
+}
+
+#show2 {
+	width: 30%;
+	height: auto;
+	position: absolute;
+	top:140vw;
+	left: 69%;
+	z-index: 1000;
+	transition: 0.2s;
+}
+
+#show2:hover {
+	width: 32%;
+	top: calc(140vw - 1%);
+	left: calc(68%);
+}
+
+#show3 {
+	width: 30%;
+	height: auto;
+	position: absolute;
+	top:210vw;
+	left: 69%;
+	z-index: 1000;
+	transition: 0.2s;
+}
+
+#show3:hover {
+	width: 32%;
+	top: calc(210vw - 1%);
+	left: calc(68%);
+}
+
+
+
+
+
 
 
 
