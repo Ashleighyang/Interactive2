@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+
+
 
 body{
 	background-color:#e8e8e8;
@@ -9,6 +13,15 @@ body{
 	width: 2000px;
 
 
+}
+
+.intro {
+	position: absolute;
+    display: inline-block;
+    text-overflow: left;
+    left: 10%;
+    top: 280vw;
+    width: 487px;
 }
 
 .noscroll {
@@ -161,12 +174,13 @@ body{
 }
 
 #cover2 {
-   width: 30vw;
+   width: 100vw;
     height: 40vh;
     background: #e8e8e8;
     position: fixed;
     right:0;
-    bottom: 0;
+    bottom: 80px;
+    transform: rotate(-15deg);
 }
 
 #show1 {
