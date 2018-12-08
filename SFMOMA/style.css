@@ -176,14 +176,14 @@ body{
     bottom: 0;
 }
 
-#cover2 {
+#/*cover2 {
    width: 100vw;
     height: 20vh;
     background: #e8e8e8;
     position: fixed;
     right:0;
     bottom: 80px;
-    transform: rotate(-15deg);
+    transform: rotate(-15deg);*/
 }
 
 #show1 {
